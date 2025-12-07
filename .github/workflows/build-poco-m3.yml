@@ -3,6 +3,9 @@ name: Build Poco M3
 on:
   workflow_call:
   workflow_dispatch:
+  push:
+    branches:
+      - '**'
 
 env:
   # Device env
